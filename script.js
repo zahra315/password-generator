@@ -102,6 +102,7 @@ function generatePassword(){
     newPassword.push(selection);
     console.log(selection);
   }
+  
   var password = newPassword.join("");
   console.log("New Password is: " + password);
   return password;
