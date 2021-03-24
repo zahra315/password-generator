@@ -13,3 +13,4 @@
 .Once all prompts are answered, the user will be presented with a password matching the answered prompts. Displaying the generated password in an alert is acceptable, but attempt to write the password to the page instead.
 
 
+[Password Generator](https://zahra315.github.io/password-generator/)
