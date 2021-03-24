@@ -13,7 +13,7 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-//Array
+//Array**********
 var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",  "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var num = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -96,7 +96,7 @@ function generatePassword(){
   }else if(confirmSpecialChar){
     console.log(userInput = specialChar);
   }
-  //Ramdom data from user's criteria selectio**********
+  //Random data from user's criteria selectio**********
   for (var i = 0; i < passwordLength; i++){
     var selection = userInput[Math.floor(Math.random() * userInput.length)];
     newPassword.push(selection);
